@@ -1,0 +1,2 @@
+1. The bug was that the two input values num1 and num2 are being stored as strings rather than numbers so when they are added they are added as strings.
+2. I would fix it by typecasting the values to numbers using Number(val)
